@@ -1,0 +1,9 @@
+{
+  "name": "personal-thunder-strike-defense",
+  "version": "0.1.0",
+  "title": "P.T.S.D. - Personal Thunder Strike Defense",
+  "author": "Don Boobleone",
+  "factorio_version": "2.0",
+  "dependencies": ["base >= 2.0", "space-age >= 2.0"],
+  "description": "Master Fulgora's lightning bolts.\nAdds the Personal Thunder Strike Defense Equipment to the game."
+}
