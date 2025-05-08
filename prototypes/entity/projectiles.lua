@@ -8,7 +8,7 @@ thunder_strike.strike_effect.action_delivery.target_effects[1].particle_name = "
 thunder_strike.strike_effect.action_delivery.target_effects[2].particle_name = "stone-particle-medium"
 thunder_strike.strike_effect.action_delivery.target_effects[3].particle_name = "stone-particle-small"
 thunder_strike.strike_effect.action_delivery.target_effects[4].particle_name = "stone-particle-tiny"
-thunder_strike.sound.aggregation.max_count = 20
+thunder_strike.sound.aggregation.max_count = 21
 
 data:extend({ thunder_strike })
 
@@ -67,14 +67,36 @@ data:extend({
             },
             {
                 type = "area",
-                radius = 3.5,
+                radius = 2.5,
                 force = "enemy",
                 action_delivery = {
                     type = "instant",
                     target_effects = {
                         {
                             type = "damage",
-                            damage = { amount = 100, type = "electric" }
+                            damage = { amount = 50, type = "electric" }
+                        },
+                        {
+                            type = "create-sticker",
+                            sticker = "tesla-turret-slow"
+                        }
+                    }
+                }
+            },
+            {
+                type = "area",
+                radius = 5,
+                force = "enemy",
+                action_delivery = {
+                    type = "instant",
+                    target_effects = {
+                        {
+                            type = "damage",
+                            damage = { amount = 50, type = "electric" }
+                        },
+                        {
+                            type = "create-sticker",
+                            sticker = "tesla-turret-slow"
                         }
                     }
                 }

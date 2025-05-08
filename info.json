@@ -1,7 +1,7 @@
 {
   "name": "personal-thunder-strike-defense",
-  "version": "0.1.0",
-  "title": "P.T.S.D. - Personal Thunder Strike Defense",
+  "version": "0.1.1",
+  "title": "Personal Thunder Strike Defense",
   "author": "Don Boobleone",
   "factorio_version": "2.0",
   "dependencies": ["base >= 2.0", "space-age >= 2.0"],

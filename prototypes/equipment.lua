@@ -17,14 +17,14 @@ data:extend({
         },
         energy_source = {
             type = "electric",
-            buffer_capacity = "25MJ",
-            input_flow_limit = "5000kW",
+            buffer_capacity = "21MJ",
+            input_flow_limit = "6900kW",
             usage_priority = "secondary-input"
         },
         attack_parameters = {
             type = "projectile",
             ammo_category = "electric",
-            cooldown = 75,
+            cooldown = 90,
             min_range = 6,
             range = 24,
             sound = {
@@ -38,7 +38,7 @@ data:extend({
             },
             ammo_type = {
                 category = "electric",
-                energy_consumption = "8MJ",
+                energy_consumption = "10350kJ",
                 action = {
                     type = "direct",
                     action_delivery = {
