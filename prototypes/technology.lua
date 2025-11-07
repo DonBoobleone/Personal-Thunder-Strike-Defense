@@ -3,7 +3,6 @@ data:extend(
     {
         type = "technology",
         name = "personal-thunder-strike-defense-equipment",
-        --icon_size = 256,
         icons = util.technology_icon_constant_equipment("__personal-thunder-strike-defense__/graphics/technology/personal-thunder-strike-defense-equipment.png"),
         effects = {
             {
