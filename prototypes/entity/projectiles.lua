@@ -1,6 +1,6 @@
 local thunder_strike = table.deepcopy(data.raw["lightning"]["lightning"])
 thunder_strike.name = "thunder-strike-lightning"
-thunder_strike.damage = 0 -- Damage will be done with target_effects
+thunder_strike.damage = {amount = 0, type = "electric"} -- Damage will be done with target_effects
 thunder_strike.hidden = true
 thunder_strike.hidden_in_factoriopedia = true
 thunder_strike.energy = "100MJ"

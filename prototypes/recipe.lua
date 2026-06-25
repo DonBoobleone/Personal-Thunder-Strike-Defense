@@ -3,7 +3,7 @@ data:extend(
     {
         type = "recipe",
         name = "personal-thunder-strike-defense-equipment",
-        category = "electronics",
+        categories = {"crafting" , "electromagnetics"},
         energy_required = 30,
         ingredients =
         {
